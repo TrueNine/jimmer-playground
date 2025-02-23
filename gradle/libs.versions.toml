@@ -4,9 +4,18 @@ kotlin = "2.1.20-RC"
 ksp = "2.1.20-RC-1.0.30"
 spring-boot = "3.5.0-M2"
 jimmer = "0.9.57"
+flyway = "11.3.3"
 
-junit5 = "5.11.4"
-junitPlatform = "1.11.4"
+[libraries]
+org-babyfish-jimmer-jimmer-sql = { module = "org.babyfish.jimmer:jimmer-sql", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-sql-kotlin = { module = "org.babyfish.jimmer:jimmer-sql-kotlin", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-core = { module = "org.babyfish.jimmer:jimmer-core", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-apt = { module = "org.babyfish.jimmer:jimmer-apt", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-ksp = { module = "org.babyfish.jimmer:jimmer-ksp", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-mapstruct-apt = { module = "org.babyfish.jimmer:jimmer-mapstruct-apt", version.ref = "jimmer" }
+org-babyfish-jimmer-jimmer-spring-boot-starter = { module = "org.babyfish.jimmer:jimmer-spring-boot-starter", version.ref = "jimmer" }
+org-flywaydb-flyway-core = { module = "org.flywaydb:flyway-core", version.ref = "flyway" }
+org-jetbrains-kotlin-kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
 
 [plugins]
 org-springframework-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }

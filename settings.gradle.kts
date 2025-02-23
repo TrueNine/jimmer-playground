@@ -6,3 +6,5 @@ pluginManagement {
     }
   }
 }
+
+rootProject.name = "jimmer-playground"

@@ -1,0 +1,10 @@
+export org.example.entities.ATable
+  -> package org.example.entities.atable
+
+specification ATableFlatJson {
+  otherVariable
+
+  flat(b) {
+    jsonString
+  }
+}
