@@ -1,10 +1,9 @@
 ### android studio ###
 /local.properties
-/.xcodemap
+
 ### gradle ###
 .gradle
-gradle/
-gradle.properties
+/gradle.properties
 gradlew
 gradlew.bat
 build/
@@ -12,6 +11,7 @@ generated/
 generated_tests/
 .generated/
 .temp/
+.xcodemap/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -44,7 +44,6 @@ src/test/**/out/
 .jpb/
 *.hprof
 /out/
-/amplicode.xml
 
 ### NetBeans ###
 /nbproject/private/
