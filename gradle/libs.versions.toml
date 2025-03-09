@@ -1,9 +1,9 @@
 [versions]
 java = "23"
-kotlin = "2.1.20-RC"
-ksp = "2.1.20-RC-1.0.30"
+kotlin = "2.1.20-RC2"
+ksp = "2.1.20-RC2-1.0.31"
 spring-boot = "3.5.0-M2"
-jimmer = "0.9.57"
+jimmer = "0.9.62"
 flyway = "11.3.3"
 
 [libraries]
